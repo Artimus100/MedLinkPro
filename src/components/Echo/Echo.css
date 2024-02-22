@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    background-color: #E2FFFB;
+   height: 2205px; /* Adjust the height of the container */
+}
+
+.overlay {
+    position: absolute;
+    top: 300px;
+    left: 700px; /* Adjusted left position */
+    width: 375px;
+    height: 375px;
+    background-image: url('../../assets/echo1.svg');
+    background-size: cover;
+    background-position: center left; /* Adjusted background position */
+}
+
+.dotted-line {
+    position: absolute;
+    top: 100%; /* Position the line vertically in the center */
+    left: 50%; /* Position the line horizontally in the center */
+    transform: translate(-50%, -50%); /* Center the line precisely */
+    width: 1px; /* Set the width of the line */
+    height: 20vh; /* Set the height of the line */
+    background-color: #FFF; /* Set the color of the line to white */
+  }
+
+.dotted-line::after {
+    content: "";
+    display: inline-block;
+    width: 50%; /* Adjust as needed */
+    border-bottom: 1px dotted#2C6A72; /* Adjust color and thickness as needed */
+}

@@ -1,0 +1,11 @@
+.secondpage{
+    position: relative; /* Position the text and button relative to the container */
+    height: 30vh;
+    background-image: url('../../assets/fullSmall.svg');
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
